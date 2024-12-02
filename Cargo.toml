@@ -2,6 +2,14 @@
 name = "drive-optimization-wizard"
 version = "0.1.0"
 edition = "2021"
+description = "A tool to optimize and clean your drive space."
+license = "MIT"
+repository = "https://github.com/username/drive-optimization-wizard"
+homepage = "https://github.com/username/drive-optimization-wizard"
+documentation = "https://docs.rs/drive-optimization-wizard"
+readme = "README.md"
+keywords = ["cleaner", "optimization", "disk", "cli"]
+categories = ["command-line-utilities", "system"]
 
 [dependencies]
 clap = { version = "4.0", features = ["derive"] }
