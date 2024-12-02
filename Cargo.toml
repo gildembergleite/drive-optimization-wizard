@@ -9,7 +9,12 @@ homepage = "https://github.com/username/drive-optimization-wizard"
 documentation = "https://docs.rs/drive-optimization-wizard"
 readme = "README.md"
 keywords = ["cleaner", "optimization", "disk", "cli"]
-categories = ["command-line-utilities", "system"]
+categories = [
+    "command-line-utilities",
+    "filesystem",
+    "memory-management",
+    "caching",
+]
 
 [dependencies]
 clap = { version = "4.0", features = ["derive"] }
